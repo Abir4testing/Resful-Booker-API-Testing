@@ -1,0 +1,54 @@
+1. Title/Summary: The user data aren't consistent after updating a booking using the PUT method
+
+
+2. Precondition: Must have a booking.
+
+
+3. Environment: Postman and Windows 11
+
+
+4. Screenshots/Attachments: [Attachment](https://drive.google.com/file/d/1r2kdAoku0BN_T4fOqwx6ygDhdwDhpuKO)
+
+
+5. Additional Information: n/a.
+
+
+6. Reproduction Steps:
+
+     1. Go to heads and give Content-Type: application/json, Accept: application/json and cookie:token=<token_value>.
+     2. Go to body and input body data: 
+{
+    "firstname" : "James",
+    "lastname" : "Brown",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2018-01-01",
+        "checkout" : "2019-01-01"
+    },
+    "additionalneeds" : "Breakfast"
+} 
+     3. Send a put request to 'https://restful-booker.herokuapp.com/booking/10' endpoint with valid credentials.
+     4. Observe the behavior after some time.
+
+
+
+7. Priority: High 
+
+
+8. Severity: Major
+
+
+9. Assigned To: 
+
+
+10. Status: Fail
+
+
+11. Reported By: Abir
+
+
+12. Date/Time: 2/10/2024
+
+
+13. Comments/Notes: the bug needs to be fixed ASAP.
