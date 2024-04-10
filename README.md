@@ -65,11 +65,7 @@ RESTful-Booker API using Postman. The project includes the following files:</p>
 
 <p class=MsoNormal><b>Project Structure</b></p>
 
-<p class=MsoNormal><span lang=EN>|- requirement_documentation.md</span></p>
 
-<p class=MsoNormal><span lang=EN>|- test_plan.md</span></p>
-
-<p class=MsoNormal><span lang=EN>|- test_cases.md<br>
 <br>
 </span></p>
 
