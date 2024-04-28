@@ -114,7 +114,7 @@ the project owner:</span></p>
 
 <p class=MsoNormal><span lang=EN>Name: Abir Mahmud Shahariar</span></p>
 
-<p class=MsoNormal><span lang=EN>Email: a4testingofficial@gmail.com</span></p>
+
 
 </div>
 
