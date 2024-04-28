@@ -38,7 +38,7 @@ ul
 
 <div class=WordSection1>
 
-<p class=MsoNormal><b>RESTful-Booker API Portfolio Project</b></p>
+<p class=MsoNormal><b>RESTful-Booker API Project</b></p>
 
 <p class=MsoNormal>This project aims to demonstrate testing of the
 RESTful-Booker API using Postman. The project includes the following files:</p>
